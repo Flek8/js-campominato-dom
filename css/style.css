@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    height: 50px;
+    display: flex;
+    line-height: 50px;
+    vertical-align: middle;
+}
+
+header img {
+    vertical-align: middle;
+}
+
+.logo span {
+    font-size: 30px;
+    font-weight: bold;
+    vertical-align: middle;
+    margin-left: 20px;
+}
+
+button {
+    padding: 0 20px;
+}
+button:hover {
+    cursor: pointer;
+}
+
+select {
+    padding-right: 30px;
+}
+
+.logo, .livello {
+    width: 50%;
+    text-align: center;
+}
+
+main {
+    background-color: aquamarine;
+    height: calc(100vh - 100px);
+}
+
+.container {
+    margin: auto;
+    padding-top: 30px;
+    width: 400px;
+    height: 400px;
+}
+.container::after {
+    display: block;
+    content: '';
+    clear: both;
+}
+
+#target {
+    margin-top: 5px;
+    text-align: center;
+    font-size: 20px;
+    color: red;
+}
+
+.square {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    float: left;
+}
+
+.square:hover {
+    cursor: default;
+}
+
+.clicked {
+    background-color: rgb(2, 76, 189);
+    color: white;
+}
+
+.bomba {
+    background-color: red;
+}
+
+footer {
+    height: 50px;
+    line-height: 50px;
+    vertical-align: middle;
+    padding-left: 40px;
+}
