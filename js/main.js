@@ -98,7 +98,7 @@ function play() {
             }
             quadrati[i].removeEventListener('click', gestioneClick)
         }
-        document.getElementById('target').innerHTML = 'Hai effettutato ' + tentativi.length + ' prima di trovare la bomba!';
+        document.getElementById('target').innerHTML = 'Hai effettutato ' + tentativi.length + ' tentativi prima di trovare la bomba!';
     } 
    
     
